@@ -1,10 +1,10 @@
 Hangman Game
 
-Description
+Description:
 
 This is a simple Hangman game implemented in C++. The program selects a random word from a text file (words.txt) and allows the player to guess letters one at a time. The player has up to 6 incorrect guesses before the game is over.
 
-How to Play
+How to Play:
 
 The game will display a word with underscores representing each letter.
 
@@ -16,7 +16,7 @@ If the letter is incorrect, the player loses a life.
 
 The game continues until the player either correctly guesses the word or runs out of lives.
 
-Features
+Features:
 
 Reads words from an external words.txt file.
 
@@ -26,13 +26,13 @@ Allows players to guess letters and provides feedback.
 
 Limits incorrect guesses to 6.
 
-Requirements
+Requirements:
 
 C++ Compiler (e.g., g++, clang++)
 
 words.txt file containing a list of words, one per line.
 
-Installation and Usage
+Installation and Usage:
 
 Clone or download the source code.
 
@@ -46,20 +46,12 @@ Run the program:
 
 ./hangman
 
-Example words.txt File
+Future Improvements:
 
-programming
-hangman
-developer
-computer
-cplusplus
+- Add UI
 
-Future Improvements
+- Allow multi-word phrases.
 
-Add graphical representation of the Hangman.
+- Implement difficulty levels.
 
-Allow multi-word phrases.
-
-Implement difficulty levels.
-
-Save high scores.
+- Save high scores.
