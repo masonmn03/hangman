@@ -21,7 +21,6 @@ void hangman() {
     int wordPos = rand() % words.size();
     
     realWord = words[wordPos];
-    cout << realWord << endl; // TESTING
     
     //setup guess word
     guessWord = "";
